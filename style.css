@@ -4,7 +4,7 @@ html {
     
     color: rgb(255, 255, 255);
     text-shadow: 0.075em 0.075em rgb(46, 46, 46);
-    font-size: 3vmax;
+    font-size: 3vmin;
 
     background-repeat: no-repeat;
     background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(102, 212, 255, 0.3)), url("assets/bg.png");
