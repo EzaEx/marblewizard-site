@@ -1,0 +1,75 @@
+html {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: 0.075em 0.075em rgb(46, 46, 46);
+    font-size: 3vmax;
+
+    background-repeat: no-repeat;
+    background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(102, 212, 255, 0.3)), url("assets/bg.png");
+    background-color: #191919;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+body {
+   background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+#title {
+    margin-top: 3vh;
+    image-rendering: pixelated;
+    width: 90vw;
+}
+
+
+h1 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+
+.navbar {
+    border-style: ridge;
+    border-left-width: 0;
+    border-right-width: 0;
+
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 0.5vh;
+}
+
+
+.navbar a {
+    padding: 2vw;
+}
+
+a {
+    text-decoration-thickness: 0.075em;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(46, 46, 46);
+    text-shadow: 0.075em 0.075em rgb(255, 255, 255);
+}
+
+
+hr {
+    width: 70vw;
+    max-width: 700px;
+    background-color: white;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
