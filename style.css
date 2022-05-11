@@ -3,8 +3,8 @@ html {
     font-family: 'Share Tech Mono', monospace;
     
     color: rgb(255, 255, 255);
-    text-shadow: 0.075em 0.075em rgb(46, 46, 46);
-    font-size: larger;
+    text-shadow: 0.1em 0.1em rgb(46, 46, 46);
+    font-size: 1.3em;
 
     background-repeat: no-repeat;
     background-image: radial-gradient(rgba(255, 255, 255, 0), rgba(102, 212, 255, 0.3)), url("assets/bg.png");
@@ -32,6 +32,16 @@ h1 {
     font-size: 3em;
 }
 
+.game_pic {
+    width: 40vmin;
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+    background-color: rgb(46, 46, 46);
+    border-width: 2vmin;
+    border-radius: 10vmin;
+    padding: 1px;
+}
+
 
 .navbar {
     border-style: ridge;
@@ -42,32 +52,33 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 
-    padding-bottom: 0.5vh;
+    margin-bottom: 0.5vh;
 }
 
 
 .navbar a {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 a {
     text-decoration-thickness: 0.075em;
+}
+
+:visited {
     color: inherit;
 }
 
-.active a {
+
+.active {
     color: rgb(46, 46, 46);
-    text-shadow: 0.075em 0.075em rgb(0, 0, 0);
+    text-shadow: 0.1em 0.1em rgb(186, 252, 255);
 }
 
-a:visited {
-    color: inherit;
-}
 
 a:hover {
     color: rgb(46, 46, 46);
-    text-shadow: 0.075em 0.075em rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em rgb(255, 255, 255);
 }
 
 
